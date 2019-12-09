@@ -18,6 +18,7 @@ package com.example.android.emojify;
 
 import android.Manifest;
 import android.content.Intent;
+import android.content.pm.ActivityInfo;
 import android.content.pm.PackageManager;
 import android.graphics.Bitmap;
 import android.net.Uri;
@@ -123,10 +124,9 @@ public class MainActivity extends AppCompatActivity {
 
   /** Creates a temporary image file and captures a picture to store in it. */
   private void launchCamera() {
-
+    //setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_LANDSCAPE);
     // Create the capture image intent
     Intent takePictureIntent = new Intent(MediaStore.ACTION_IMAGE_CAPTURE);
-
     // Ensure that there's a camera activity to handle the intent
     if (takePictureIntent.resolveActivity(getPackageManager()) != null) {
       // Create the temporary File where the photo should go
@@ -139,16 +139,12 @@ public class MainActivity extends AppCompatActivity {
       }
       // Continue only if the File was successfully created
       if (photoFile != null) {
-
         // Get the path of the temporary file
         mTempPhotoPath = photoFile.getAbsolutePath();
-
         // Get the content URI for the image file
         Uri photoURI = FileProvider.getUriForFile(this, FILE_PROVIDER_AUTHORITY, photoFile);
-
         // Add the URI so the camera can store the image
         takePictureIntent.putExtra(MediaStore.EXTRA_OUTPUT, photoURI);
-
         // Launch the camera activity
         startActivityForResult(takePictureIntent, REQUEST_IMAGE_CAPTURE);
       }
@@ -162,15 +158,14 @@ public class MainActivity extends AppCompatActivity {
       // Process the image and set it to the TextView
       processAndSetImage();
     } else {
-
       // Otherwise, delete the temporary image file
       BitmapUtils.deleteImageFile(this, mTempPhotoPath);
     }
+    //setRequestedOrientation (ActivityInfo.SCREEN_ORIENTATION_PORTRAIT);
   }
 
   /** Method for processing the captured image and setting it to the TextView. */
   private void processAndSetImage() {
-
     // Toggle Visibility of the views
     mEmojifyButton.setVisibility(View.GONE);
     mTitleTextView.setVisibility(View.GONE);
