@@ -25,16 +25,20 @@ merchants to have more than one terminal if needed since the POS backend is clou
 
  - Smile: 
  
- ![](/images/smile.png)
- ![](/images/closed_smile.png)
- ![](/images/leftwink.png)
- ![](/images/rightwink.png)
+ <p align="center">
+    <img src="/images/smile.png" alt="" data-canonical-src="/images/smile.png" width="144" height="144" />
+    <img src="/images/rightwink.png" alt="" data-canonical-src="/images/rightwink.png" width="144" height="144" />
+    <img src="/images/leftwink.png" alt="" data-canonical-src="/images/leftwink.png" width="144" height="144" />
+    <img src="/images/closed_smile.png" alt="" data-canonical-src="/images/closed_smile.png" width="144" height="144" />
+ </p>
 
  - Frown: 
  
- ![](/images/frown.png)
- ![](/images/closed_frown.png)
- ![](/images/leftwinkfrown.png)
- ![](/images/rightwinkfrown.png)
+ <p align="center">
+    <img src="/images/frown.png" alt="" data-canonical-src="/images/frown.png" width="144" height="144" />
+    <img src="/images/rightwinkfrown.png" alt="" data-canonical-src="/images/rightwinkfrown.png" width="144" height="144" />
+    <img src="/images/leftwinkfrown.png" alt="" data-canonical-src="/images/leftwinkfrown.png" width="144" height="144" />
+    <img src="/images/closed_frown.png" alt="" data-canonical-src="/images/closed_frown.png" width="144" height="144" />
+ </p>
 
 - Make use or the camera to take a picture
