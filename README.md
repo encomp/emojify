@@ -13,6 +13,6 @@ merchants to have more than one terminal if needed since the POS backend is clou
 
 ### Features
 - The app is capable to recognize one face or several faces
-![demo_multipe_faces](/images/multiple_faces.png){ width=50% }
+<img src="/images/multiple_faces.png " alt="" data-canonical-src="/images/multiple_faces.png " width="176" height="353" />
 - The app is capable to replace detect happy, sad and winks
 - Make use or the camera to take a picture
