@@ -24,15 +24,17 @@ merchants to have more than one terminal if needed since the POS backend is clou
 - The app is capable to replace detect happy, sad and winks
 
  - Smile: 
-    ![](/images/smile.png)
-    ![](/images/closed_smile.png)
-    ![](/images/leftwink.png)
-    ![](/images/rightwink.png)
+ 
+ ![](/images/smile.png)
+ ![](/images/closed_smile.png)
+ ![](/images/leftwink.png)
+ ![](/images/rightwink.png)
 
  - Frown: 
-    ![](/images/frown.png)
-    ![](/images/closed_frown.png)
-    ![](/images/leftwinkfrown.png)
-    ![](/images/rightwinkfrown.png)
+ 
+ ![](/images/frown.png)
+ ![](/images/closed_frown.png)
+ ![](/images/leftwinkfrown.png)
+ ![](/images/rightwinkfrown.png)
 
 - Make use or the camera to take a picture
