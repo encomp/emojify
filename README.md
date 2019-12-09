@@ -9,7 +9,7 @@ The user based for the app are retail merchants that lack a POS. The goal of the
 merchants to define the products and allow them to perform sale transactions. The system will allow 
 merchants to have more than one terminal if needed since the POS backend is cloud base.
 
-<img src="/images/demo_single_face.gif" style="width:540px; height:1080px" />
+<img src="/images/demo_single_face.gif" style="max-width:30%;" />
 
 ### Features
 - The app is capable to recognize one face or several faces
