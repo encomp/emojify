@@ -10,11 +10,14 @@ merchants to define the products and allow them to perform sale transactions. Th
 merchants to have more than one terminal if needed since the POS backend is cloud base.
 
 <p align="center">
-<img src="/images/demo_single_face.gif " alt="" data-canonical-src="/images/demo_single_face.gif " width="176" height="353" />
+    <img src="/images/demo_single_face.gif " alt="" data-canonical-src="/images/demo_single_face.gif " width="176" height="353" />
 </p>
 
 ### Features
 - The app is capable to recognize one face or several faces
-<img src="/images/multiple_faces.png " alt="" data-canonical-src="/images/multiple_faces.png " width="176" height="353" />
+<p align="center">
+    <img src="/images/multiple_faces.jpg" alt="" data-canonical-src="/images/multiple_faces.jpg" width="353" height="176" />
+    <img src="/images/multiple_faces.png" alt="" data-canonical-src="/images/multiple_faces.png" width="176" height="353" />
+</p>
 - The app is capable to replace detect happy, sad and winks
 - Make use or the camera to take a picture
