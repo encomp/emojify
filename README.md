@@ -20,8 +20,8 @@ merchants to have more than one terminal if needed since the POS backend is clou
     <img src="/images/multiple_faces.png" alt="" data-canonical-src="/images/multiple_faces.png" width="176" height="353" />
 </p>
 - The app is capable to replace detect happy, sad and winks
-<p align="center">
+
 ![](/images/smile.png)
 ![](/images/frown.png)
-</p>
+
 - Make use or the camera to take a picture
